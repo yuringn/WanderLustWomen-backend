@@ -12,4 +12,7 @@ class Comment < ApplicationRecord
     self.user.username
   end
   
+  def user_avatar
+    self.user.avatar
+  end
 end
